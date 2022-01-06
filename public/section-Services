@@ -1,0 +1,33 @@
+<section class="py-6">
+
+        <div id="Section-Services" class="container">
+          <div class="row flex-center">
+            
+            <div class="col-auto text-center my-4">
+              <p>What we're doing</p>
+              <h1 class="display-3 fw-bold">Our Services</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-5 mb-md-0"><img class="img-fluid shadow-sm" src="assets/img/gallery/feature-1.png" alt="" />
+              <div class="mt-3 text-center text-md-start">
+                <h4 class="display-6 fs-2 fs-lg-3 fw-bold">3D Modeling</h4>
+                <p class="mb-0">From your first design sketches to the final design, we will model your project with as much information as you need. </p><a class="btn btn-link ps-0" href="#" role="button"> Learn more ›</a>
+              </div>
+            </div>
+            <div class="col-md-4 mb-5 mb-md-0"><img class="img-fluid shadow-sm" src="assets/img/gallery/feature-2.png" alt="" />
+              <div class="mt-3 text-center text-md-start">
+                <h4 class="display-6 fs-2 fs-lg-3 fw-bold">Construction Drawings</h4>
+                <p class="mb-0">For documentation, we adapt to your detailing requirements and drawing standards delivering quality drawings.</p><a class="btn btn-link ps-0" href="#" role="button"> Learn more › </a>
+              </div>
+            </div>
+            <div class="col-md-4 mb-5 mb-md-0"><img class="img-fluid shadow-sm" src="assets/img/gallery/feature-3.png" alt="" />
+              <div class="mt-3 text-center text-md-start">
+                <h4 class="display-6 fs-2 fs-lg-3 fw-bold">Parametric design</h4>
+                <p class="mb-0">We use computational tools and programming to create solutions that adapt to your projects and business. </p><a class="btn btn-link ps-0" href="#" role="button"> Learn more ›</a>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+
+      </section>

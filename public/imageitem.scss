@@ -1,0 +1,54 @@
+.imageitem {
+  display: block;
+  position: relative;
+  height: 30rem;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  background: url('assets/img/gallery/Frame 180.png') center center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+	&:hover {
+		transform: translateY(-11px);
+		box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    text-decoration: none;
+    color: inherit;
+	}
+  &:before { // black gradient
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 35%,rgba(0,0,0,0.68) 100%);
+  }
+  &__title  {
+		position: absolute;
+		bottom: 20px;
+		line-height: 40px;
+		left: 15px;
+		width: 100%;
+		color: white;
+		transition: all 0.2s ease-in-out;
+		&:hover, &:focus {
+			color: #dddddd;
+			text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.23);
+			text-decoration: none;
+			transform: translateY(-10px);
+		}
+  }
+  &__label {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #ffffff;
+    background-color: #D95555;
+    opacity: 0.8;
+    padding: 19px 17px;
+    width: 60px;
+    height: 60px;
+    border-radius: 79%;
+  }
+}
